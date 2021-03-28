@@ -19,4 +19,4 @@
 - For attaching our autoscaling group to application load balancer attachment we are using terraform resource [aws_autoscaling_attachment](https://github.com/dhaval512/terraform-vpc-ec2-practical/blob/master/modules/instance/autoscaling.tf#L60)
 
 ## Volume
-- we have attached Secondary volume using terrafrom resource is [aws_launch_configuration](https://github.com/dhaval512/terraform-vpc-ec2-practical/blob/master/modules/instance/autoscaling.tf#49) and have mounted to instance with [user_data](https://github.com/dhaval512/terraform-vpc-ec2-practical/blob/master/modules/instance/autoscaling.tf#L38) script
+- we have attached Secondary volume using terrafrom resource in [aws_launch_configuration](https://github.com/dhaval512/terraform-vpc-ec2-practical/blob/master/modules/instance/autoscaling.tf#49) and have mounted to instance with [user_data](https://github.com/dhaval512/terraform-vpc-ec2-practical/blob/master/modules/instance/autoscaling.tf#L38) script

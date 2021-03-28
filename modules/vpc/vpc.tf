@@ -1,3 +1,4 @@
+# create vpc
 resource "aws_vpc" "mainvpc" {
   cidr_block       = var.app_cidr
   instance_tenancy = "default"
@@ -6,7 +7,7 @@ resource "aws_vpc" "mainvpc" {
     Terraform = "true"
   }
 }
-
+# create private subnets
 resource "aws_subnet" "private_subnets" {
   depends_on = [aws_vpc.mainvpc]
   vpc_id     = aws_vpc.mainvpc.id
@@ -19,6 +20,7 @@ resource "aws_subnet" "private_subnets" {
     Terraform = "true"
   }
 }
+# create public subnets
 
 resource "aws_subnet" "public_subnets" {
   depends_on = [aws_vpc.mainvpc]

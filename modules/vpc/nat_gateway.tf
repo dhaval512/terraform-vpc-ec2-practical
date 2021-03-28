@@ -5,6 +5,7 @@ resource "aws_eip" "EIP" {
   }
 
 }
+# create a nategateway 
 resource "aws_nat_gateway" "NATGW" {
     allocation_id = aws_eip.EIP.id
     subnet_id = "${aws_subnet.public_subnets[0].id}"

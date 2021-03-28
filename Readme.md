@@ -20,6 +20,9 @@
  ```
 terraform apply
 ```
+-  If you want to change the aws region You can change it from here [here](https://github.com/dhaval512/terraform-vpc-ec2-practical/blob/master/provider.tf#L2) 
+- If you want to change the availabilty zone [availability zone](https://github.com/dhaval512/terraform-vpc-ec2-practical/blob/master/modules/vpc/vairable.tf#L14)
+
 ## Number of modules used in the project:
 - Here we have used to modules:
     - first module is **VPC** : for detailed explanation please follow this :  [link](https://github.com/dhaval512/terraform-vpc-ec2-practical/blob/master/modules/vpc/Readme.md))

@@ -1,3 +1,4 @@
+#create security group
 resource "aws_security_group" "load_balancer_sg" {
   vpc_id      = module.vpc.vpc
   name        = "allow_tls"

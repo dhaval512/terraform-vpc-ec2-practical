@@ -1,3 +1,4 @@
+# declare variables
 variable "vpc_name" {
   default = "practical"
 }

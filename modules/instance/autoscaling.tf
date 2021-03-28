@@ -6,7 +6,7 @@ data "aws_ami" "ami" {
     values = ["amzn2-ami-hvm*"]
   }
 }
-
+# create a autoscaling group
 resource "aws_autoscaling_group" "autoscaling-web-server-group" {
   name = "web-server-autoscaling-group"
   launch_configuration = aws_launch_configuration.autoscale.id
@@ -29,6 +29,7 @@ output "lb_address" {
    depends_on = [aws_autoscaling_attachment.autoscaling-web-server-group]
   value = aws_lb.web-server.dns_name
 }
+# create autoscale launch configuration
 resource "aws_launch_configuration" "autoscale" {
   name = "web-server-launch-configuration"
   image_id        = data.aws_ami.ami.id

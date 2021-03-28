@@ -1,3 +1,4 @@
+# create a load balancer 
 resource "aws_lb" "web-server" {
   depends_on         = [module.vpc.internetgateway,aws_security_group.load_balancer_sg]
   name               = "web-server-lb"

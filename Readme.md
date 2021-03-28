@@ -20,7 +20,7 @@
  ```
 terraform apply
 ```
-## No of modules used in the project:
+## Number of modules used in the project:
 - Here we have used to modules:
     - first module is **vpc** : for detailed explanation please follow this :  [link](https://github.com/sparth510/terraform_vpc_ec2_webserver/blob/main/network/README.md)
     - second module is **ec2** : for more understand please follow this [link](https://github.com/sparth510/terraform_vpc_ec2_webserver/blob/main/ec2/README.md)

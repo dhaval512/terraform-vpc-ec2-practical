@@ -22,5 +22,5 @@ terraform apply
 ```
 ## Number of modules used in the project:
 - Here we have used to modules:
-    - first module is **vpc** : for detailed explanation please follow this :  [link](https://github.com/sparth510/terraform_vpc_ec2_webserver/blob/main/network/README.md)
-    - second module is **ec2** : for more understand please follow this [link](https://github.com/sparth510/terraform_vpc_ec2_webserver/blob/main/ec2/README.md)
+    - first module is **VPC** : for detailed explanation please follow this :  [link](https://github.com/dhaval512/terraform-vpc-ec2-practical/blob/master/modules/vpc/Readme.md))
+    - second module is **EC2** : for more understand please follow this [link](https://github.com/dhaval512/terraform-vpc-ec2-practical/blob/master/modules/instance/Readme.md)

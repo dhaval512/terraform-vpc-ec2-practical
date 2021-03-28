@@ -1,7 +1,7 @@
 ## Pre-requisites
  - Administrative rights to the AWS account on which the stack needs to be deployed
  - AWS cli  installed and configured and administarative rights have been assigned to the user configured with it
- - Terraform version 0.12 installed
+ - **Terraform version 0.12 installed**
  ## Instructions to use
  - steps:
  - 1. Download the source code to the local

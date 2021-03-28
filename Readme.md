@@ -20,6 +20,8 @@
  ```
 terraform apply
 ```
+ - 5. Upon the successful deployment, you would get ELB endpoint as output and when you will hit that endpoint  from your browser , it should server the sample HTML file.
+
 -  If you want to change the aws region You can change it from here [here](https://github.com/dhaval512/terraform-vpc-ec2-practical/blob/master/provider.tf#L2) 
 - If you want to change the availabilty zone [availability zone](https://github.com/dhaval512/terraform-vpc-ec2-practical/blob/master/modules/vpc/vairable.tf#L14)
 
